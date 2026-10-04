@@ -4,45 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="Couto Silva Advocacia — Advocacia e Consultoria Jurídica em Salvador, Bahia.">
+    <meta
+        name="description"
+        content="Couto Silva Advocacia — Advocacia e Consultoria Jurídica em Salvador, Bahia."
+    >
+
+    <meta name="theme-color" content="#10100f">
 
     <title>Couto Silva Advocacia</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header class="header">
+<header class="header" id="header">
     <div class="container nav">
 
         <a href="#inicio" class="logo-area">
-            <div class="logo-symbol">CS</div>
-
-            <div>
-                <strong>Couto Silva</strong>
-                <span>ADVOCACIA & CONSULTORIA</span>
-            </div>
+            <img
+                src="IMG_6934.jpeg"
+                alt="Couto Silva Advocacia"
+                class="logo"
+            >
         </a>
 
-        <button class="menu-button" id="menuButton">
-            ☰
+        <button
+            class="menu-button"
+            id="menuButton"
+            aria-label="Abrir menu"
+            aria-expanded="false"
+        >
+            <span></span>
+            <span></span>
+            <span></span>
         </button>
 
         <nav class="navigation" id="navigation">
+
             <a href="#inicio">Início</a>
+
             <a href="#areas">Áreas de atuação</a>
+
             <a href="#sobre">O escritório</a>
+
             <a href="#atendimento">Atendimento</a>
 
             <a href="#contato" class="nav-button">
                 Falar conosco
             </a>
+
         </nav>
 
     </div>
@@ -55,7 +74,7 @@
 
 <section class="hero" id="inicio">
 
-    <div class="hero-background"></div>
+    <div class="hero-overlay"></div>
 
     <div class="container hero-content">
 
@@ -71,9 +90,9 @@
             </h1>
 
             <p>
-                O Escritório Couto Silva Advocacia oferece orientação
-                jurídica personalizada, com atendimento profissional,
-                responsável e próximo de cada cliente.
+                Orientação jurídica personalizada, atendimento
+                profissional e uma atuação pautada pela clareza,
+                responsabilidade e compromisso.
             </p>
 
             <div class="hero-buttons">
@@ -81,6 +100,7 @@
                 <a
                     href="https://wa.me/557183158987"
                     target="_blank"
+                    rel="noopener noreferrer"
                     class="button button-gold"
                 >
                     Falar pelo WhatsApp
@@ -88,13 +108,14 @@
                 </a>
 
                 <a href="#areas" class="link-button">
-                    Conhecer áreas de atuação ↓
+                    Conhecer áreas de atuação
+                    <span>↓</span>
                 </a>
 
             </div>
 
             <div class="location">
-                <span></span>
+                <span class="location-dot"></span>
                 Salvador — Bahia
             </div>
 
@@ -105,24 +126,22 @@
 
             <div class="card-top-line"></div>
 
-            <small>COUTO SILVA</small>
-
-            <div class="monogram">
-                CS
+            <div class="card-logo">
+                <img
+                    src="IMG_6934.jpeg"
+                    alt="Couto Silva"
+                >
             </div>
-
-            <h2>
-                Advocacia
-                <br>
-                <span>& Consultoria</span>
-            </h2>
 
             <div class="card-line"></div>
 
             <p>
-                Atendimento jurídico com seriedade,
-                clareza e compromisso.
+                Advocacia & Consultoria Jurídica
             </p>
+
+            <small>
+                SERIEDADE · CLAREZA · COMPROMISSO
+            </small>
 
         </div>
 
@@ -195,120 +214,180 @@
 
             <article class="area-card">
 
-                <span class="number">01</span>
+                <div class="area-image">
+                    <img
+                        src="IMG_6935.jpeg"
+                        alt="Direito de Família"
+                        loading="lazy"
+                    >
+                </div>
 
-                <div class="area-icon">⌂</div>
+                <div class="area-content">
 
-                <h3>Direito de Família</h3>
+                    <span class="number">01</span>
 
-                <p>
-                    Orientação jurídica em questões relacionadas
-                    às relações familiares.
-                </p>
+                    <h3>Direito de Família</h3>
 
-                <a href="#contato">
-                    Saiba mais →
-                </a>
+                    <p>
+                        Orientação jurídica em questões relacionadas
+                        às relações familiares.
+                    </p>
 
-            </article>
+                    <a href="#contato">
+                        Saiba mais <span>→</span>
+                    </a>
 
-
-            <article class="area-card">
-
-                <span class="number">02</span>
-
-                <div class="area-icon">§</div>
-
-                <h3>Direito Sucessório</h3>
-
-                <p>
-                    Orientação em questões relacionadas a
-                    sucessões e patrimônio.
-                </p>
-
-                <a href="#contato">
-                    Saiba mais →
-                </a>
+                </div>
 
             </article>
 
 
             <article class="area-card">
 
-                <span class="number">03</span>
+                <div class="area-image">
+                    <img
+                        src="IMG_6936.jpeg"
+                        alt="Direito Sucessório"
+                        loading="lazy"
+                    >
+                </div>
 
-                <div class="area-icon">◈</div>
+                <div class="area-content">
 
-                <h3>Direito Previdenciário</h3>
+                    <span class="number">02</span>
 
-                <p>
-                    Orientação jurídica em demandas relacionadas
-                    à Previdência Social.
-                </p>
+                    <h3>Direito Sucessório</h3>
 
-                <a href="#contato">
-                    Saiba mais →
-                </a>
+                    <p>
+                        Orientação em questões relacionadas a
+                        sucessões e patrimônio.
+                    </p>
 
-            </article>
+                    <a href="#contato">
+                        Saiba mais <span>→</span>
+                    </a>
 
-
-            <article class="area-card">
-
-                <span class="number">04</span>
-
-                <div class="area-icon">⚖</div>
-
-                <h3>Direito do Trabalho</h3>
-
-                <p>
-                    Atuação em questões e relações jurídicas
-                    no âmbito trabalhista.
-                </p>
-
-                <a href="#contato">
-                    Saiba mais →
-                </a>
+                </div>
 
             </article>
 
 
             <article class="area-card">
 
-                <span class="number">05</span>
+                <div class="area-image">
+                    <img
+                        src="IMG_6937.jpeg"
+                        alt="Direito Previdenciário"
+                        loading="lazy"
+                    >
+                </div>
 
-                <div class="area-icon">♢</div>
+                <div class="area-content">
 
-                <h3>Direito do Consumidor</h3>
+                    <span class="number">03</span>
 
-                <p>
-                    Orientação em relações de consumo e
-                    proteção dos direitos do consumidor.
-                </p>
+                    <h3>Direito Previdenciário</h3>
 
-                <a href="#contato">
-                    Saiba mais →
-                </a>
+                    <p>
+                        Orientação jurídica em demandas relacionadas
+                        à Previdência Social.
+                    </p>
+
+                    <a href="#contato">
+                        Saiba mais <span>→</span>
+                    </a>
+
+                </div>
 
             </article>
 
 
             <article class="area-card">
 
-                <span class="number">06</span>
+                <div class="area-image">
+                    <img
+                        src="IMG_6938.jpeg"
+                        alt="Direito do Trabalho"
+                        loading="lazy"
+                    >
+                </div>
 
-                <div class="area-icon">▥</div>
+                <div class="area-content">
 
-                <h3>Direito Bancário</h3>
+                    <span class="number">04</span>
 
-                <p>
-                    Atuação em questões jurídicas envolvendo
-                    relações e serviços bancários.
-                </p>
+                    <h3>Direito do Trabalho</h3>
 
-                <a href="#contato">
-                    Saiba mais →
-                </a>
+                    <p>
+                        Atuação em questões e relações jurídicas
+                        no âmbito trabalhista.
+                    </p>
+
+                    <a href="#contato">
+                        Saiba mais <span>→</span>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <article class="area-card">
+
+                <div class="area-image">
+                    <img
+                        src="IMG_6939.jpeg"
+                        alt="Direito do Consumidor"
+                        loading="lazy"
+                    >
+                </div>
+
+                <div class="area-content">
+
+                    <span class="number">05</span>
+
+                    <h3>Direito do Consumidor</h3>
+
+                    <p>
+                        Orientação em relações de consumo e
+                        proteção dos direitos do consumidor.
+                    </p>
+
+                    <a href="#contato">
+                        Saiba mais <span>→</span>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <article class="area-card">
+
+                <div class="area-image">
+                    <img
+                        src="IMG_6940.jpeg"
+                        alt="Direito Bancário"
+                        loading="lazy"
+                    >
+                </div>
+
+                <div class="area-content">
+
+                    <span class="number">06</span>
+
+                    <h3>Direito Bancário</h3>
+
+                    <p>
+                        Atuação em questões jurídicas envolvendo
+                        relações e serviços bancários.
+                    </p>
+
+                    <a href="#contato">
+                        Saiba mais <span>→</span>
+                    </a>
+
+                </div>
 
             </article>
 
@@ -325,16 +404,24 @@
 
     <div class="container about-grid">
 
-        <div class="about-symbol">
+        <div class="about-visual">
 
-            <div class="large-cs">
-                CS
+            <div class="about-frame">
+
+                <img
+                    src="IMG_6934.jpeg"
+                    alt="Couto Silva Advocacia"
+                >
+
             </div>
 
-            <span>
-                COUTO SILVA<br>
-                ADVOCACIA
-            </span>
+            <div class="about-caption">
+                <span>CS</span>
+                <p>
+                    Advocacia &<br>
+                    Consultoria Jurídica
+                </p>
+            </div>
 
         </div>
 
@@ -362,6 +449,25 @@
                 atendimento responsável e uma condução
                 profissional das demandas apresentadas.
             </p>
+
+            <div class="about-points">
+
+                <div>
+                    <span>01</span>
+                    <p>Atendimento personalizado</p>
+                </div>
+
+                <div>
+                    <span>02</span>
+                    <p>Comunicação clara</p>
+                </div>
+
+                <div>
+                    <span>03</span>
+                    <p>Orientação responsável</p>
+                </div>
+
+            </div>
 
             <a href="#contato" class="button button-outline">
                 Entrar em contato
@@ -405,14 +511,14 @@
 
                 <span>01</span>
 
-                <h3>
-                    Primeiro contato
-                </h3>
+                <div>
+                    <h3>Primeiro contato</h3>
 
-                <p>
-                    Entre em contato pelo WhatsApp e
-                    apresente brevemente sua situação.
-                </p>
+                    <p>
+                        Entre em contato pelo WhatsApp e
+                        apresente brevemente sua situação.
+                    </p>
+                </div>
 
             </div>
 
@@ -421,14 +527,14 @@
 
                 <span>02</span>
 
-                <h3>
-                    Entendimento
-                </h3>
+                <div>
+                    <h3>Entendimento</h3>
 
-                <p>
-                    O escritório recebe as informações
-                    necessárias para compreender a demanda.
-                </p>
+                    <p>
+                        O escritório recebe as informações
+                        necessárias para compreender a demanda.
+                    </p>
+                </div>
 
             </div>
 
@@ -437,14 +543,14 @@
 
                 <span>03</span>
 
-                <h3>
-                    Orientação jurídica
-                </h3>
+                <div>
+                    <h3>Orientação jurídica</h3>
 
-                <p>
-                    Você recebe direcionamento sobre os
-                    próximos passos adequados ao caso.
-                </p>
+                    <p>
+                        Você recebe direcionamento sobre os
+                        próximos passos adequados ao caso.
+                    </p>
+                </div>
 
             </div>
 
@@ -461,7 +567,7 @@
 
     <div class="container contact-grid">
 
-        <div>
+        <div class="contact-text">
 
             <span class="eyebrow">
                 FALE CONOSCO
@@ -481,9 +587,11 @@
             <a
                 href="https://wa.me/557183158987"
                 target="_blank"
+                rel="noopener noreferrer"
                 class="button button-gold large"
             >
-                Iniciar conversa no WhatsApp ↗
+                Iniciar conversa no WhatsApp
+                <span>↗</span>
             </a>
 
         </div>
@@ -549,15 +657,12 @@
 
     <div class="container footer-grid">
 
-        <div>
+        <div class="footer-brand">
 
-            <div class="footer-logo">
-                Couto Silva
-            </div>
-
-            <span>
-                ADVOCACIA & CONSULTORIA
-            </span>
+            <img
+                src="IMG_6934.jpeg"
+                alt="Couto Silva Advocacia"
+            >
 
             <p>
                 Escritório de advocacia e
@@ -590,15 +695,16 @@
 </footer>
 
 
-<!-- WHATSAPP FLUTUANTE -->
+<!-- WHATSAPP -->
 
 <a
     href="https://wa.me/557183158987"
     target="_blank"
+    rel="noopener noreferrer"
     class="whatsapp"
     aria-label="Falar pelo WhatsApp"
 >
-    ☎
+    <span>☏</span>
 </a>
 
 
